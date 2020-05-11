@@ -20,7 +20,7 @@ public class CountNumber implements ParseFile {
 		String desplegar ="";
 		
 		try {
-			File fileReader = new File ("..\\examen\\src\\main\\resources\\ejemplo.txt");
+			File fileReader = new File ("..\\examen2\\src\\main\\resources\\ejemplo.txt");
 			FileReader fileOpen = new FileReader(fileReader);
 			
 			StreamTokenizer st = new StreamTokenizer(fileOpen);

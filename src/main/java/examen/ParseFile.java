@@ -32,7 +32,7 @@ public class ParseFile {
 		List<Comviva> comvivas = comvivaJdbc.select();
 		
 		for (Comviva comviva : comvivas) {
-			logger.info("La tabla contiene: {} {}", comviva,"ms");
+			logger.info("La tabla contiene: {} {}", comviva);
 		}
 		
 		
